@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Thymos",
+    "slug": "thymos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6366f1"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#6366f1"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.riksil11.thymos"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app needs access to your photos to attach images to your journal entries."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2d1a1b81-6253-4a20-ae4d-7b1142290d02"
+      }
+    },
+    "owner": "riksil1"
+  }
+}
