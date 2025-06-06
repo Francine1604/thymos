@@ -57,11 +57,7 @@
 
 4. Scan the QR code using the Expo Go app or run it on an emulator.
 
----
 
-## 📦 APK Download
 
-You can download the latest APK release [**here**](#) (Replace with actual link).
 
----
 
