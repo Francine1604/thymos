@@ -32,7 +32,6 @@
 
 * Node.js & npm
 * Expo CLI (`npm install -g expo-cli`)
-* Android Studio / Xcode (for emulators)
 * Physical device or emulator to run the app
 
 ### Installation
